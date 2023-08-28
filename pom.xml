@@ -290,19 +290,11 @@
 					<groupId>org.apache.httpcomponents</groupId>
 					<artifactId>httpcore</artifactId>
 				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.block.nationalregister</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.accounting</artifactId>
-			<exclusions>
 				<exclusion>
-					<groupId>poi</groupId>
-					<artifactId>poi</artifactId>
+					<groupId>com.idega.block.egov</groupId>
+					<artifactId>
+						is.idega.idegaweb.egov.accounting
+					</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
@@ -325,6 +317,12 @@
 				<exclusion>
 					<groupId>com.idega.block.platform</groupId>
 					<artifactId>org.apache.axis</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.idega.block.egov</groupId>
+					<artifactId>
+						is.idega.block.nationalregister
+					</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
